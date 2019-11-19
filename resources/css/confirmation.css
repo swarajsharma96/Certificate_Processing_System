@@ -1,0 +1,14 @@
+#confirmation .thumbnail {
+    border: 0;
+}
+#confirmation {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#confirmation .btn {
+    transition: 0.3s;
+    font-size: 20px;
+    box-shadow: 0 5px 15px 0 black;
+    border: 0;
+}

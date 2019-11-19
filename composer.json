@@ -1,0 +1,14 @@
+
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "\\src\\MyCompany\\"
+    }
+  },
+
+  "require": {
+    "phpmailer/phpmailer": "^6.0"
+  }
+}
+
+

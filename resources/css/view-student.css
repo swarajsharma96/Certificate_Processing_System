@@ -1,0 +1,11 @@
+
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fafafa;
+    opacity: 1;
+    border: 1px solid #616161;
+}
+
+#student-creation input[readonly] {
+    font-size: 1.2em !important;
+}

@@ -1,0 +1,147 @@
+/* Basic CSS */
+
+a, ul, li, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+.cyan {
+    background-color: #00838f;
+}
+
+.orange {
+    color: #e65100;
+}
+
+.blue-gray {
+    color: #37474f;
+}
+
+.teal {
+    color: #00bfa5;
+}
+
+.color-1 {
+    background-color: #e3f2fd;
+}
+.color-2 {
+    background-color: #eeeeee;
+}
+.td-font-size {
+    font-size: 1.2em;
+}
+.section-head-text {
+    background-color: #ffab40;
+    padding: 10px 10px;
+    font-size: 1.4em;
+    color:#f1f8e9;
+    margin-bottom: 10px;
+}
+
+/* css for message div using php */
+.message p {
+    padding: 10px;
+}
+
+/* Basic CSS end */
+
+
+/* NavBar starts */
+
+.navbar-default {
+    background-color: #078282FF;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+}
+.brand a {
+    color: #F0F6F7FF;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand a:hover {
+    color: #b2dfdb;
+    background-color: transparent;
+}
+
+.brand img {
+    display: inline;
+    background-color: #F0F6F7FF;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+/* Navbar end */
+
+#items {
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.insider {
+    background-color:#184A45FF;
+    padding: 0 20px;
+    height: 100%;
+}
+.btn-list {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.btn-list li {
+    margin: 5px 0;
+}
+
+.btn-list i {
+    font-size: 1.6em;
+    margin-top: 8px;
+}
+
+.btn-name {
+    font-size: 1.6em;
+}
+
+.btn-list a > div {
+    padding: 10px;
+}
+.btn-list a > div:hover p, .btn-list a > div:hover i {
+    color: #f1f8e9;
+}
+.btn-list a > div:hover{
+    background-color: #82b1ff;
+}
+
+
+.list-group-item {
+    padding: 0;
+}
+
+.outer-div {
+    margin-top: 10px;
+}
+
+/* responsive */
+@media (max-width: 760px) {
+   .outer-div {
+       margin-top: 50px;
+   }
+}
+
+
+/* footer */
+footer {
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+}

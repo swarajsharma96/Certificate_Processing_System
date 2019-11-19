@@ -1,0 +1,117 @@
+p, a, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    min-height: 100px;
+    margin-bottom: 0;
+    border: none;
+    background-color: #e0f2f2;
+}
+
+.uni {
+    color: #f57400;
+    background-color: #e0f2f2;
+    padding: 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul li {
+    list-style: none;
+    margin: 4px 0;
+}
+ul li > a {
+    font-size: 25px;
+    background-color: #449889;
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+}
+
+ul li > a:hover {
+    background-color: #8eacbb;
+    transition: 0.3s;
+    font-size: 30px;
+    box-shadow: 0 20px 30px 0 black;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+ul li > a > i {
+    padding: 0 10px;
+    color: #f67c01;
+}
+
+#buttons .col-sm-6 {
+    background-color: #e0f2f2;
+    padding: 20px;
+    margin-top: 5%;
+    opacity: .9;
+}
+
+.navbar-nav p{
+    margin-top: 30px;
+}
+
+#buttons{
+    background: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88vh;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+table input {
+    background-color: #449889;
+    color: white;
+    font-size: 18px;
+}
+
+.profile-picture input {
+    background-color: #449889;
+    color: white;
+    font-size: 18px;
+}
+
+form {
+    font-size: 16px;
+}
+
+.submit-btn input {
+    font-size: 16px;
+}
+
+.submit-btn {
+    padding: 0 12px;
+}
+
+#student, #register-office {
+    background-color: #8eacbb;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    .heading-text {
+        margin-top: 20px;
+    }
+    .navbar-nav p {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+

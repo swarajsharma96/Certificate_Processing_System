@@ -1,0 +1,80 @@
+
+
+body {
+    background: url("../images/bg (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-section {
+    margin-top: 5%;
+}
+#signup-section {
+    margin-top: 2%;
+}
+
+.login {
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    margin-top: 25px;
+    box-shadow: 0 5px 6px 0 #A2A2A1FF;
+    opacity: .8;
+}
+.login-insider {
+    padding: 20px 30px 30px 30px;
+}
+.head-text {
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+.inputValue {
+    font-size: 1.1em;
+    color: #00203FFF;
+}
+.inputValue2 {
+    font-size: 1.1em;
+    color: #00203FFF;
+    border: 2px solid red!important;
+}
+
+select {
+    width: 50%;
+}
+select option {
+    font-size: 1.2em;
+    margin: 5px 0;
+    background-color: #f1f8e9;
+}
+.option {
+    width: 60%;
+}
+button {
+    width: 100%;
+}
+
+.signup {
+    margin-top: 30px;
+}
+.signup > p + p>a:hover {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.btn-success {
+    color: #FCF6F5FF;
+    background-color: #643E46FF;
+}
+
+.field-border {
+    border: 1px solid red!important;
+}
+
+.warning-message {
+    padding: 5px 15px;
+    background-color: #f1f8e9;
+    color: red;
+    border: 1px dashed red;
+}
+
+
+
+

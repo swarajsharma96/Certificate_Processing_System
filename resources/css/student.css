@@ -1,0 +1,65 @@
+#student-creation label{
+    font-size: 1em;
+}
+#student-creation input {
+    font-size: 1.2em;
+}
+
+#student-edit label {
+    font-size: 1em;
+}
+#student-edit input {
+    font-size: 1.2em;
+}
+
+.student-info-text {
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 1.4em;
+    color:#616161;
+    margin-bottom: 10px;
+    border: 1px solid #616161;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.img-input-file input{
+    margin-left: 15px;
+}
+
+.last-row {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#student-creation button {
+    width: 100%;
+}
+
+#student-edit button {
+    width: 100%;
+}
+
+.btn {
+    font-size: 17px;
+}
+
+.last-row .back-btn {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fafafa;
+    opacity: 1;
+    border: 1px solid #616161;
+}
+
+.readOnlyField > input[readonly] {
+    font-size: 1.3em !important;
+}
+
+#student-creation, #student-edit {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Roboto&display=swap');
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#apply-for {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.red {
+    color: red;
+}
+.img-thumbnail {
+    border: 0;
+}
+.h1 {
+    margin-top: 0;
+}
+.confirmation-font-size {
+    font-family: Roboto;
+    font-size: 1.2em;
+}
+.greetings-1 {
+    font-family: lobster;
+    letter-spacing: 2px;
+}
+.greetings-2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.confirmation {
+    margin: 30px 0;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+
+.strong {
+    color: darkred;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.declaimer {
+    background-color: white;
+    padding: 2px 0;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.declaimer-body {
+    background-color: white;
+    padding: 2px 5px;
+    font-weight: bold;
+    color: red!important;
+    margin: 5px 0;
+}
+.greeting-text, .greeting-text + p{
+    margin: 10px 0 !important;
+    font-size: 1.1em;
+}
+.greeting-text+p+p+p, .greeting-text+p+p+p+p{
+    margin: 5px 0 !important;
+}
+.btn {
+    font-size: 18px;
+    width: 10%;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+.property_name {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.property_body {
+    font-size: 1.1em;
+}

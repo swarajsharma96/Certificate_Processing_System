@@ -1,0 +1,54 @@
+
+.form-div {
+    border: 1px solid #b2dfdb;
+    background-color: #fafafa;
+    margin: 20px 0;
+}
+
+form .last-row > p {
+    margin-top: 10px;
+    font-size: 1em;
+    padding: 0 13px;
+}
+
+form .last-row > p > a {
+    width: 100%;
+}
+
+form .last-row > p > input {
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+}
+
+.form-div > .top {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.form-div form {
+    padding: 20px 20px 40px 20px;
+}
+
+.form-div form input {
+    font-size: 1em;
+}
+
+.course-head-text {
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 1.4em;
+    color: #616161;
+    margin-bottom: 10px;
+    border: 1px solid #616161;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#add-course {
+    height: 80vh;
+    padding: 10px 0;
+}
